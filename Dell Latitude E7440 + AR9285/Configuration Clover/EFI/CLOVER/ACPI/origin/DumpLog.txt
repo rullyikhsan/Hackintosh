@@ -1,0 +1,132 @@
+4:779  0:264  Found BIOS RSDP at EED60
+4:779  0:000  Printing ACPI tables from RSDP EED60 ...
+4:779  0:000   EED60: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+4:779  0:000    (Xsdt: D8FEB090, Rsdt: D8FEB028)
+4:779  0:000    D8FEB090: 'XSDT', 'CBX3', Rev: 1, Len: 156
+4:779  0:000    D8FEB028: 'RSDT', 'CBX3', Rev: 1, Len: 96
+4:779  0:000    Tables in Xsdt: 15
+4:779  0:000    0. D8FFCAA8: 'FACP', 'CBX3', Rev: 5, Len: 268
+4:779  0:000        (Dsdt: D8FEB1B8, Facs: DA7FE080, XDsdt: D8FEB1B8, XFacs: 0)
+4:779  0:000        D8FEB1B8: 'DSDT', 'CBX3', Rev: 2, Len: 71916
+4:780  0:001        DA7FE080: 'FACS', Ver: 2, Len: 64
+4:780  0:000    1. D8FFCBB8: 'APIC', 'CBX3', Rev: 3, Len: 114
+4:780  0:000    2. D8FFCC30: 'FPDT', 'CBX3', Rev: 1, Len: 68
+4:780  0:000    3. D8FFCC78: 'SLIC', 'CBX3', Rev: 3, Len: 374
+4:780  0:000    4. D8FFCDF0: 'LPIT', 'CBX3', Rev: 1, Len: 92
+4:780  0:000    5. D8FFCE50: 'SSDT', 'sensrhub', Rev: 1, Len: 552
+4:780  0:000    6. D8FFD078: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1311
+4:780  0:000    7. D8FFD598: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+4:780  0:000    8. D8FFE070: 'HPET', 'CBX3', Rev: 1, Len: 56
+4:780  0:000    9. D8FFE0A8: 'SSDT', 'SataTabl', Rev: 1, Len: 1109
+4:780  0:000    10. D8FFE500: 'MCFG', 'CBX3', Rev: 1, Len: 60
+4:780  0:000    11. D8FFE540: 'ASF!', ' HCG', Rev: 32, Len: 165
+4:780  0:000    12. D8FFE5E8: 'MSDM', 'CBX3', Rev: 3, Len: 85
+4:780  0:000    13. D8FFE640: 'BGRT', '', Rev: 0, Len: 56
+4:780  0:000    14. D8FFE678: 'DMAR', 'HSW', Rev: 1, Len: 176
+4:780  0:000    Tables in Rsdt: 15
+4:780  0:000    0. D8FEB130: 'FACP', 'CBX3', Rev: 2, Len: 132
+4:780  0:000        (Dsdt: D8FEB1B8, Facs: DA7FE040)
+4:780  0:000        D8FEB1B8: 'DSDT', 'CBX3', Rev: 2, Len: 71916
+4:782  0:001        DA7FE040: 'FACS', Ver: 0, Len: 64
+4:782  0:000    1. D8FFCBB8: 'APIC', 'CBX3', Rev: 3, Len: 114
+4:782  0:000    2. D8FFCC30: 'FPDT', 'CBX3', Rev: 1, Len: 68
+4:782  0:000    3. D8FFCC78: 'SLIC', 'CBX3', Rev: 3, Len: 374
+4:782  0:000    4. D8FFCDF0: 'LPIT', 'CBX3', Rev: 1, Len: 92
+4:782  0:000    5. D8FFCE50: 'SSDT', 'sensrhub', Rev: 1, Len: 552
+4:782  0:000    6. D8FFD078: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1311
+4:782  0:000    7. D8FFD598: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+4:782  0:000    8. D8FFE070: 'HPET', 'CBX3', Rev: 1, Len: 56
+4:782  0:000    9. D8FFE0A8: 'SSDT', 'SataTabl', Rev: 1, Len: 1109
+4:782  0:000    10. D8FFE500: 'MCFG', 'CBX3', Rev: 1, Len: 60
+4:782  0:000    11. D8FFE540: 'ASF!', ' HCG', Rev: 32, Len: 165
+4:782  0:000    12. D8FFE5E8: 'MSDM', 'CBX3', Rev: 3, Len: 85
+4:782  0:000    13. D8FFE640: 'BGRT', '', Rev: 0, Len: 56
+4:782  0:000    14. D8FFE678: 'DMAR', 'HSW', Rev: 1, Len: 176
+4:782  0:000  Found UEFI Acpi 2.0 RSDP at D8FEB000
+4:782  0:000  Saving ACPI tables from RSDP D8FEB000 to EFI\CLOVER\ACPI\origin ...
+4:782  0:000   D8FEB000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+4:782  0:000    (Xsdt: D8FEB090, Rsdt: D8FEB028)
+4:782  0:000    D8FEB090: 'XSDT', 'CBX3', Rev: 1, Len: 156
+4:782  0:000    D8FEB028: 'RSDT', 'CBX3', Rev: 1, Len: 96
+4:782  0:000    Tables in Xsdt: 15
+4:782  0:000    0. D8FFCAA8: 'FACP', 'CBX3', Rev: 5, Len: 268
+4:782  0:000        (Dsdt: D8FEB1B8, Facs: DA7FE080, XDsdt: D8FEB1B8, XFacs: 0)
+4:782  0:000        D8FEB1B8: 'DSDT', 'CBX3', Rev: 2, Len: 71916
+4:783  0:001        DA7FE080: 'FACS', Ver: 2, Len: 64
+4:783  0:000    1. D8FFCBB8: 'APIC', 'CBX3', Rev: 3, Len: 114
+4:783  0:000    2. D8FFCC30: 'FPDT', 'CBX3', Rev: 1, Len: 68
+4:783  0:000    3. D8FFCC78: 'SLIC', 'CBX3', Rev: 3, Len: 374
+4:783  0:000    4. D8FFCDF0: 'LPIT', 'CBX3', Rev: 1, Len: 92
+4:783  0:000    5. D8FFCE50: 'SSDT', 'sensrhub', Rev: 1, Len: 552
+4:783  0:000    6. D8FFD078: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1311
+4:783  0:000    7. D8FFD598: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+4:783  0:000    8. D8FFE070: 'HPET', 'CBX3', Rev: 1, Len: 56
+4:783  0:000    9. D8FFE0A8: 'SSDT', 'SataTabl', Rev: 1, Len: 1109
+4:783  0:000    10. D8FFE500: 'MCFG', 'CBX3', Rev: 1, Len: 60
+4:783  0:000    11. D8FFE540: 'ASF!', ' HCG', Rev: 32, Len: 165
+4:783  0:000    12. D8FFE5E8: 'MSDM', 'CBX3', Rev: 3, Len: 85
+4:783  0:000    13. D8FFE640: 'BGRT', '', Rev: 0, Len: 56
+4:783  0:000    14. D8FFE678: 'DMAR', 'HSW', Rev: 1, Len: 176
+4:783  0:000    Tables in Rsdt: 15
+4:783  0:000    0. D8FEB130: 'FACP', 'CBX3', Rev: 2, Len: 132
+4:783  0:000        (Dsdt: D8FEB1B8, Facs: DA7FE040)
+4:783  0:000        D8FEB1B8: 'DSDT', 'CBX3', Rev: 2, Len: 71916
+4:788  0:004        DA7FE040: 'FACS', Ver: 0, Len: 64
+4:788  0:000    1. D8FFCBB8: 'APIC', 'CBX3', Rev: 3, Len: 114
+4:788  0:000    2. D8FFCC30: 'FPDT', 'CBX3', Rev: 1, Len: 68
+4:788  0:000    3. D8FFCC78: 'SLIC', 'CBX3', Rev: 3, Len: 374
+4:788  0:000    4. D8FFCDF0: 'LPIT', 'CBX3', Rev: 1, Len: 92
+4:788  0:000    5. D8FFCE50: 'SSDT', 'sensrhub', Rev: 1, Len: 552
+4:788  0:000    6. D8FFD078: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1311
+4:788  0:000    7. D8FFD598: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+4:788  0:000    8. D8FFE070: 'HPET', 'CBX3', Rev: 1, Len: 56
+4:788  0:000    9. D8FFE0A8: 'SSDT', 'SataTabl', Rev: 1, Len: 1109
+4:788  0:000    10. D8FFE500: 'MCFG', 'CBX3', Rev: 1, Len: 60
+4:788  0:000    11. D8FFE540: 'ASF!', ' HCG', Rev: 32, Len: 165
+4:788  0:000    12. D8FFE5E8: 'MSDM', 'CBX3', Rev: 3, Len: 85
+4:788  0:000    13. D8FFE640: 'BGRT', '', Rev: 0, Len: 56
+4:788  0:000    14. D8FFE678: 'DMAR', 'HSW', Rev: 1, Len: 176
+4:788  0:000  Found UEFI Acpi 1.0 RSDP at D8FEB000
+4:788  0:000  Printing ACPI tables from RSDP D8FEB000 ...
+4:788  0:000   D8FEB000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+4:788  0:000    (Xsdt: D8FEB090, Rsdt: D8FEB028)
+4:788  0:000    D8FEB090: 'XSDT', 'CBX3', Rev: 1, Len: 156
+4:788  0:000    D8FEB028: 'RSDT', 'CBX3', Rev: 1, Len: 96
+4:788  0:000    Tables in Xsdt: 15
+4:788  0:000    0. D8FFCAA8: 'FACP', 'CBX3', Rev: 5, Len: 268
+4:788  0:000        (Dsdt: D8FEB1B8, Facs: DA7FE080, XDsdt: D8FEB1B8, XFacs: 0)
+4:788  0:000        D8FEB1B8: 'DSDT', 'CBX3', Rev: 2, Len: 71916
+4:790  0:001        DA7FE080: 'FACS', Ver: 2, Len: 64
+4:790  0:000    1. D8FFCBB8: 'APIC', 'CBX3', Rev: 3, Len: 114
+4:790  0:000    2. D8FFCC30: 'FPDT', 'CBX3', Rev: 1, Len: 68
+4:790  0:000    3. D8FFCC78: 'SLIC', 'CBX3', Rev: 3, Len: 374
+4:790  0:000    4. D8FFCDF0: 'LPIT', 'CBX3', Rev: 1, Len: 92
+4:790  0:000    5. D8FFCE50: 'SSDT', 'sensrhub', Rev: 1, Len: 552
+4:790  0:000    6. D8FFD078: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1311
+4:790  0:000    7. D8FFD598: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+4:790  0:000    8. D8FFE070: 'HPET', 'CBX3', Rev: 1, Len: 56
+4:790  0:000    9. D8FFE0A8: 'SSDT', 'SataTabl', Rev: 1, Len: 1109
+4:790  0:000    10. D8FFE500: 'MCFG', 'CBX3', Rev: 1, Len: 60
+4:790  0:000    11. D8FFE540: 'ASF!', ' HCG', Rev: 32, Len: 165
+4:790  0:000    12. D8FFE5E8: 'MSDM', 'CBX3', Rev: 3, Len: 85
+4:790  0:000    13. D8FFE640: 'BGRT', '', Rev: 0, Len: 56
+4:790  0:000    14. D8FFE678: 'DMAR', 'HSW', Rev: 1, Len: 176
+4:790  0:000    Tables in Rsdt: 15
+4:790  0:000    0. D8FEB130: 'FACP', 'CBX3', Rev: 2, Len: 132
+4:790  0:000        (Dsdt: D8FEB1B8, Facs: DA7FE040)
+4:790  0:000        D8FEB1B8: 'DSDT', 'CBX3', Rev: 2, Len: 71916
+4:791  0:001        DA7FE040: 'FACS', Ver: 0, Len: 64
+4:791  0:000    1. D8FFCBB8: 'APIC', 'CBX3', Rev: 3, Len: 114
+4:791  0:000    2. D8FFCC30: 'FPDT', 'CBX3', Rev: 1, Len: 68
+4:791  0:000    3. D8FFCC78: 'SLIC', 'CBX3', Rev: 3, Len: 374
+4:791  0:000    4. D8FFCDF0: 'LPIT', 'CBX3', Rev: 1, Len: 92
+4:791  0:000    5. D8FFCE50: 'SSDT', 'sensrhub', Rev: 1, Len: 552
+4:791  0:000    6. D8FFD078: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1311
+4:791  0:000    7. D8FFD598: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+4:791  0:000    8. D8FFE070: 'HPET', 'CBX3', Rev: 1, Len: 56
+4:791  0:000    9. D8FFE0A8: 'SSDT', 'SataTabl', Rev: 1, Len: 1109
+4:791  0:000    10. D8FFE500: 'MCFG', 'CBX3', Rev: 1, Len: 60
+4:791  0:000    11. D8FFE540: 'ASF!', ' HCG', Rev: 32, Len: 165
+4:791  0:000    12. D8FFE5E8: 'MSDM', 'CBX3', Rev: 3, Len: 85
+4:791  0:000    13. D8FFE640: 'BGRT', '', Rev: 0, Len: 56
+4:791  0:000    14. D8FFE678: 'DMAR', 'HSW', Rev: 1, Len: 176
