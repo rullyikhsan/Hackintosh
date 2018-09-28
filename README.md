@@ -1,2 +1,1 @@
-This Patch Hackintosh for fresh install on your machine
-:
+This Patch Hackintosh for fresh install on your Machine
